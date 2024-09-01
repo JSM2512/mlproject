@@ -1,7 +1,7 @@
 ## I will write custom exceptions
 
 import sys
-from logger import *
+from src.logger import *
 
 def error_message_detail(error, error_detail:sys):
     _,_,exec_tb = error_detail.exc_info() ## exec_tb will give details of errors with line numbers
